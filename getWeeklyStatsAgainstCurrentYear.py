@@ -73,7 +73,7 @@ for set in sets:
                 # float every numeric piece of data
                 sheet.cell(row=nextRow, column=colCount, value=float(col.text))
             colCount += 1
-        # decrement worksheetCount to switch to the second set of data. (The first set we get will now be the "opponent"
+        # decrement worksheetCount to switch to the second row of data. (The first row we get will now be the "opponent")
         worksheetCount -= 1
         colCount = 2
     worksheetCount = 1
